@@ -5,13 +5,13 @@
                 Home
             </router-link>
            <div class="my-3">
-            <router-link to="/" class="px-2 py-2 hover:bg-orange-300 rounded-sm">
+            <router-link :to="{name: 'byName'}" class="px-2 py-2 hover:bg-orange-300 rounded-sm">
                 Search Meals
             </router-link>
-            <router-link to="/" class="px-2 py-2 hover:bg-orange-300 rounded-sm">
+            <router-link :to="{name: 'byLetter'}" class="px-2 py-2 hover:bg-orange-300 rounded-sm">
                 Meals By Letter
             </router-link>
-            <router-link to="/" class="px-2 py-2 hover:bg-orange-300 rounded-sm">
+            <router-link :to="{name: 'byIngredients'}" class="px-2 py-2 hover:bg-orange-300 rounded-sm">
                 Meals By Ingredients
             </router-link>
            </div>
